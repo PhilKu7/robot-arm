@@ -1,3 +1,11 @@
+# My Notes
+
+Other useful projects:
+ - [2L RobotArm](https://github.com/LeandroLoiacono/2L-Robot-Arm-Marlin)
+ - [Sixi 3 robot arm](https://github.com/MarginallyClever/Marlin-polargraph/tree/sixi3)
+   - originally found through [this](https://www.marginallyclever.com/2022/01/friday-facts-12-how-to-use-marlin-in-a-robot-arm/) website
+ - [Another useful project on Thingiverse](https://www.thingiverse.com/thing:3846234)
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
