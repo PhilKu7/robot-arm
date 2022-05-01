@@ -1,10 +1,21 @@
 # My Notes
 
 Other useful projects:
- - [2L RobotArm](https://github.com/LeandroLoiacono/2L-Robot-Arm-Marlin)
- - [Sixi 3 robot arm](https://github.com/MarginallyClever/Marlin-polargraph/tree/sixi3)
-   - originally found through [this](https://www.marginallyclever.com/2022/01/friday-facts-12-how-to-use-marlin-in-a-robot-arm/) website
- - [Another useful project on Thingiverse](https://www.thingiverse.com/thing:3846234)
+
+- software
+  - 2L RobotArm: [GitHub](https://github.com/LeandroLoiacono/2L-Robot-Arm-Marlin) ([important software change commit](https://github.com/LeandroLoiacono/2L-Robot-Arm-Marlin/commit/ea5ea60a3acebc5c6ace34255e7c9297aa3836dc), [and another](https://github.com/LeandroLoiacono/2L-Robot-Arm-Marlin/commit/71acc73036de88f4d8b94f01f3bdfaac4504c0ff))
+  - Sixi 3 robot arm: [GitHub](https://github.com/MarginallyClever/Marlin-polargraph/tree/sixi3) ([important software change commit](https://github.com/MarginallyClever/Marlin-polargraph/commit/eb5a3fb042ca024132a1f63ef8baabe772b48bdb))
+    - originally found through [this](https://www.marginallyclever.com/2022/01/friday-facts-12-how-to-use-marlin-in-a-robot-arm/) website
+  - [Another useful project on Thingiverse](https://www.thingiverse.com/thing:3846234)
+- hardware
+  - KAUDA Robotic Arm: [instructables](https://www.instructables.com/KAUDA-Robotic-Arm/), [DIY-TECH (the projects homepage)](https://www.diy-technology.com/010-kauda)
+  - Thor: [Hackaday.io](https://hackaday.io/project/12989-thor/details), [Project's Website](https://hackaday.io/project/12989-thor/details) ([Assembly Guide](http://thor.angel-lm.com/documentation/assembly/)), [GitHub](https://github.com/AngelLM/Thor)
+  - good 3D Printer part models: [GrabCAD](https://grabcad.com/lehaiver-1/models?page=3)
+  - NEMA 17 Stepper motor specifications: [RepRab.org](https://reprap.org/wiki/NEMA_17_Stepper_motor)
+
+How to use a 3D printer mainboard as arduino: [YouTube](https://www.youtube.com/watch?v=FJ9al1n0-pY)
+
+Interesting obstacle avoiding robot arm: [Arduino Project Hub](https://create.arduino.cc/projecthub/Marcos10Soares/object-avoiding-fsm-robot-arm-3f1296?ref=search&ref_id=avoid&offset=10)
 
 # Marlin 3D Printer Firmware
 
@@ -32,8 +43,8 @@ Before building Marlin you'll need to configure it for your specific hardware. Y
 
 To build Marlin 2.0 you'll need [Arduino IDE 1.8.8 or newer](https://www.arduino.cc/en/main/software) or [PlatformIO](http://docs.platformio.org/en/latest/ide.html#platformio-ide). Detailed build and install instructions are posted at:
 
-  - [Installing Marlin (Arduino)](http://marlinfw.org/docs/basics/install_arduino.html)
-  - [Installing Marlin (VSCode)](http://marlinfw.org/docs/basics/install_platformio_vscode.html).
+- [Installing Marlin (Arduino)](http://marlinfw.org/docs/basics/install_arduino.html)
+- [Installing Marlin (VSCode)](http://marlinfw.org/docs/basics/install_platformio_vscode.html).
 
 ### Supported Platforms
 
@@ -80,15 +91,15 @@ Marlin is constantly improving thanks to a huge number of contributors from all 
 
 Regular users can open and close their own issues, but only the administrators can do project-related things like add labels, merge changes, set milestones, and kick trolls. The current Marlin admin team consists of:
 
- - Scott Lahteine [[@thinkyhead](https://github.com/thinkyhead)] - USA - Project Maintainer &nbsp; [![Donate](https://api.flattr.com/button/flattr-badge-large.png)](http://www.thinkyhead.com/donate-to-marlin)
- - Roxanne Neufeld [[@Roxy-3D](https://github.com/Roxy-3D)] - USA
- - Keith Bennett [[@thisiskeithb](https://github.com/thisiskeithb)] - USA
- - Victor Oliveira [[@rhapsodyv](https://github.com/rhapsodyv)] - Brazil
- - Chris Pepper [[@p3p](https://github.com/p3p)] - UK
- - Jason Smith [[@sjasonsmith](https://github.com/sjasonsmith)] - USA
- - Luu Lac [[@shitcreek](https://github.com/shitcreek)] - USA
- - Bob Kuhn [[@Bob-the-Kuhn](https://github.com/Bob-the-Kuhn)] - USA
- - Erik van der Zalm [[@ErikZalm](https://github.com/ErikZalm)] - Netherlands &nbsp; [![Flattr Erik](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software)
+- Scott Lahteine [[@thinkyhead](https://github.com/thinkyhead)] - USA - Project Maintainer &nbsp; [![Donate](https://api.flattr.com/button/flattr-badge-large.png)](http://www.thinkyhead.com/donate-to-marlin)
+- Roxanne Neufeld [[@Roxy-3D](https://github.com/Roxy-3D)] - USA
+- Keith Bennett [[@thisiskeithb](https://github.com/thisiskeithb)] - USA
+- Victor Oliveira [[@rhapsodyv](https://github.com/rhapsodyv)] - Brazil
+- Chris Pepper [[@p3p](https://github.com/p3p)] - UK
+- Jason Smith [[@sjasonsmith](https://github.com/sjasonsmith)] - USA
+- Luu Lac [[@shitcreek](https://github.com/shitcreek)] - USA
+- Bob Kuhn [[@Bob-the-Kuhn](https://github.com/Bob-the-Kuhn)] - USA
+- Erik van der Zalm [[@ErikZalm](https://github.com/ErikZalm)] - Netherlands &nbsp; [![Flattr Erik](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software)
 
 ## License
 
